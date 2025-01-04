@@ -78,6 +78,18 @@ echo "PRİVATE KEY" > my-key.base58
 aios-cli hive import-keys ./my-key.base58
 ```
 
+## Sign in:
+```
+aios-cli hive login
+```
+## Check session status:
+
+```
+aios-cli hive whoami
+```
+#The output will show the publickey and private key
+
+
 
 
 
