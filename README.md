@@ -112,7 +112,7 @@ aios-cli hive points
 ![Ekran Görüntüsü (1198)](https://github.com/user-attachments/assets/b9bbfac7-98d5-40c9-b3c6-d5fdd7e843bf)
 
 
-#!!!!! If you get an error with model registration. download the model to ''cd /root/.aios'' directory... apply hive disconnect and connect commands.
+# !!!!! If you get an error with model registration. download the model to ''cd /root/.aios'' directory... apply hive disconnect and connect commands.
 
 
 ## Monitor Logs
