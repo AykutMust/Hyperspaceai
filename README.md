@@ -88,13 +88,13 @@ aios-cli hive whoami
 ```
 #The output will show the publickey and private key
 
-## Tier Selection (I CHOSE TIER 4.  Because I wanted 4CPU)
+## Tier Selection
 ```
-aios-cli hive select-tier 4
+aios-cli hive select-tier 5
 ```
 ## Download Required Model
 ```
-aios-cli models add hf:TheBloke/Mistral-7B-Instruct-v0.1-GGUF:mistral-7b-instruct-v0.1.Q4_K_S.gguf
+aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
 ```
 
 ## Connect to Hive Network (wait until the command responds and moves to the directory. This is also valid for the following commands)
@@ -110,6 +110,10 @@ aios-cli hive points
 # It should output like this
 
 ![Ekran Görüntüsü (1198)](https://github.com/user-attachments/assets/b9bbfac7-98d5-40c9-b3c6-d5fdd7e843bf)
+
+
+#!!!!! If you get an error with model registration. download the model to ''cd /root/.aios'' directory... apply hive disconnect and connect commands.
+
 
 ## Monitor Logs
 Check the logs to verify that the service is running properly and communicating with the Hive network:
